@@ -1,0 +1,690 @@
+
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #f90dbe;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* body{
+overflow: hidden;  
+} */
+
+.page {
+    height: 100vh;
+}
+
+
+/* MENU BURGER */
+
+
+.burger {
+    display: none;
+}
+
+/*MENU NAVIGATION*/
+
+
+.containernavmenu {
+    display: none;
+}
+
+
+/*ACCUEIL*/
+
+.page {
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+}
+
+.page1 {
+    background-image: url('/img/background1.jpeg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.firstname {
+    color: rgba(247, 238, 238, 0.87);
+    font-size: 60px;
+}
+
+
+.job {
+    font-size: 40px;
+}
+
+.menu {
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    width: 100%;
+}
+
+.trait {
+    background-color: white;
+    color: white;
+    height: 1px;
+    border: none;
+    width: 350px;
+}
+
+.menulink {
+    text-decoration: none;
+}
+
+.menulist {
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+
+/* BIO */
+
+
+.page2 {
+    background: #ffffff;
+}
+
+
+.titre3 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.87);
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+
+
+
+/* BIO TEXTE */
+
+.containertexte {
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+    margin-bottom: 5px;
+}
+
+.texte {
+    width: 40%;
+    text-align: justify;
+}
+
+.soustitre1 {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.containermusic {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+.lien2{
+    text-decoration: none;
+}
+
+a.lienbio{
+    color: #f90dbe;
+    text-decoration: underline 1px solid #f90dbe  ;
+}
+
+
+/* CREATIONS */
+
+
+.page3 {
+    /* background-color: rgb(250, 168, 96); */
+    background-image: url('/img/background2.jpg');
+    background-position: bottom;
+    background-size: cover;
+}
+
+.containerbox1 {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    margin-top: 10%;
+}
+
+
+.box {
+
+    background-color: white;
+    height: 40vh;
+    width: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quizzlink {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.749);
+    font-size: 60px;
+    text-align: center;
+}
+
+.quizzlink:hover {
+    color: pink;
+    font-size: 65px;
+}
+
+.box:hover {
+    background-color: rgba(0, 0, 0, 0.354);
+    filter: drop-shadow(rgb(255, 255, 255) 4px 6px);
+}
+
+
+.quizztxt:hover {
+    color: white;
+}
+
+/* CV */
+
+.page4 {
+    background-color: #ffffff;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cvsophie {
+    width: 80%;
+    height: 70%;
+    /* filter: blur(2px); */
+    border: none;
+    outline: none;
+}
+
+.iconedown {
+    margin-top: 20px;
+    width: 50px;
+}
+
+.iconedown:hover {
+    filter: drop-shadow(rgb(225, 255, 180) 6px 8px);
+    width: 60px;
+}
+
+.txttelecharg {
+    display: none;
+}
+
+/* CONTACT */
+
+.page5 {
+    background-image: url('/img/background3.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+
+}
+
+.reseauxsociaux {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.reseaux {
+    padding-right: 5px;
+
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.adresse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.749);
+    font-style: normal;
+    font-size: 20px;
+}
+
+.titreim {
+    color: rgba(0, 0, 0, 0.749);
+    padding-right: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.email, .tel, .adress {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+
+.mail, .telephone {
+    color: rgba(0, 0, 0, 0.749);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.plan {
+    margin-top: 50px;
+}
+
+/* fleche*/
+
+.retour {
+    margin-top: 49px;
+    width: 45px;
+    background: transparent;
+    display: flex;
+    rotate: 270deg;
+    margin-left: 67vh;
+ 
+}
+
+
+
+@media screen and (min-width: 290px) and (max-width: 400px){
+
+
+    .burger {
+        width: 45px;
+        background: transparent;
+        display: flex;
+        rotate: 270deg;
+        position: absolute;
+        left: 85%;
+        top: 80%;
+    }
+
+
+
+
+    .containernavmenu {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navbar {
+        position: fixed;
+    }
+
+    .navcontent {
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 68vh;
+        justify-content: center;
+        background-color: burlywood;
+    }
+
+    .menuderoulant {
+        font-size: 40px;
+        color: black;
+    }
+
+    .navlink {
+        text-decoration: none;
+        color: white;
+        list-style: none;
+        width: 30vh;
+    }
+
+
+    .navmenu:hover {
+        color: #f90dbe;
+    }
+
+    .navmenu {
+        background-color: burlywood;
+        color: white;
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .firstname {
+        font-size: 50px;
+        color: white;
+        text-align: center;
+    }
+
+    .job {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .containerbox1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .box {
+        height: 20vh;
+    }
+
+    .texte {
+        width: 90%;
+    }
+
+
+    .adress, .email, .tel {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 5px;
+        flex-direction: column;
+    }
+
+    .page5 {
+        height: 80vh;
+    }
+
+
+    .containermusic {
+    
+        display: none;
+    }
+
+
+    .iconedown {
+        display: none;
+    }
+
+    .txttelecharg {
+        display: flex;
+        color: black;
+        font-size: 20px;
+        margin-top: 10px;
+
+    }
+
+    .download {
+        text-decoration: none;
+    }
+.retour{
+        margin-left: 50vh;
+        margin-top: 19px;
+
+}
+
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+
+
+    .burger {
+        width: 45px;
+        background: transparent;
+        display: flex;
+        rotate: 270deg;
+        position: absolute;
+        left: 85%;
+        top: 80%;
+    }
+
+
+
+
+    .containernavmenu {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navbar {
+        position: fixed;
+    }
+
+    .navcontent {
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 87vh;
+        justify-content: center;
+        background-color: black;
+    }
+
+    .menuderoulant {
+        font-size: 40px;
+        color: black;
+    }
+
+    .navlink {
+        text-decoration: none;
+        color: white;
+        list-style: none;
+        width: 30vh;
+    }
+
+
+    .navmenu:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .navmenu {
+        background-color: black;
+        color: white;
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .firstname {
+        font-size: 50px;
+        color: white;
+        text-align: center;
+    }
+
+    .job {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .containerbox1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .box {
+        height: 20vh;
+    }
+
+    .texte {
+        width: 90%;
+    }
+
+
+    .adress, .email, .tel {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 5px;
+        flex-direction: column;
+    }
+
+    .page5 {
+        height: 80vh;
+    }
+
+
+    .containermusic {
+        margin-top: -17px;
+    }
+
+
+    .iconedown {
+        display: none;
+    }
+
+    .txttelecharg {
+        display: flex;
+        color: black;
+        font-size: 20px;
+        margin-top: 10px;
+
+    }
+
+    .download {
+        text-decoration: none;
+    }
+.retour{
+        margin-left: 64vh;
+
+}
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+
+
+    .page1 {
+        flex-direction: column;
+    }
+
+
+    .texte {
+        width: 70%;
+    }
+
+    .iconedown {
+        margin-top: 3px;
+        width: 46px;
+    }
+
+    .page5 {
+        height: 67vh;
+    }
+
+
+    .retour {
+        margin-left: 101vh;
+    }
+
+    .box{    width: 36vh;
+    }
+
+
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 2560px) {
+
+
+    .page1 {
+        flex-direction: column;
+    }
+
+    .menu, .firstname, .job {
+        font-size: 80px;
+    }
+
+    .titre3 {
+        font-size: 110px;
+    }
+
+    .containertexte {
+        width: 100%;
+    }
+
+    .texte {
+        font-size: 50px;
+    }
+
+    .containermusic {
+        display: none;
+    }
+
+
+    .containerbox1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3%;
+    }
+
+    .box {
+        height: 25vh;
+        width: 72vh;
+    }
+
+    .cvsophie {
+        width: 60%;
+        height: 70%;
+    }
+
+    .iconedown {
+        width: 121px;
+    }
+
+
+
+
+    .adresse, .mail, .telephone {
+        font-size: 63px;
+    }
+
+    .titreim {
+        font-size: 70px;
+    }
+
+    .retour {
+        width: 157px;
+    }
+
+.imgl{
+    width: 8vh;
+}
+
+.reseauxsociaux{
+    margin-top: 24px;
+}
+
+}
